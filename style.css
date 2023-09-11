@@ -19,11 +19,14 @@ h2{
     text-align: center;
 }
 #display {
-    width: 100%;
+    width: 98%;
     height: 40px;
     font-size: 20px;
     margin-bottom: 10px;
+    padding-right: 10px;
     text-align:right;
+    box-shadow: -2px -2px 5px #5e7f95;
+
 }
 .button {
     display: grid;
@@ -32,13 +35,15 @@ h2{
 }
 
 button {
-    width: 100%;
+    width: 95%;
     height: 50px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #3498db;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    box-shadow: -2px -2px 5px #122735;
 }
+
